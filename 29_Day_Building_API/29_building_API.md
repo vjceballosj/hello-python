@@ -210,11 +210,12 @@ import pymongo
 
 app = Flask(__name__)
 
+"""
 #
 MONGODB_URI='mongodb+srv://asabeneh:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
-
+"""
 @app.route('/api/v1.0/students', methods = ['GET'])
 def students ():
 

@@ -91,7 +91,7 @@ Select Python 3.6 or above driver
 Copy the connection string link and you will get something like this:
 
 ```sh
-mongodb+srv://asabeneh:<password>@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority
+#mongodb+srv://asabeneh:<password>@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority
 ```
 
 Do not worry about the url, it is a means to connect your application with mongoDB.
